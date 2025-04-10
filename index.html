@@ -1,11 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mi primera página</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hyvelis - Cuidados profesionales en casa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>¡Hola mundo desde GitHub Pages!</h1>
-    <p>Esta es mi primera página publicada gratis.</p>
+<body class="font-sans text-gray-800">
+  <!-- Barra de navegación -->
+  <header class="sticky top-0 bg-white shadow z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold text-blue-600">Hyvelis</div>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#inicio" class="hover:text-blue-600">Inicio</a>
+        <a href="#quienes" class="hover:text-blue-600">Quiénes somos</a>
+        <a href="#faq" class="hover:text-blue-600">Preguntas frecuentes</a>
+        <a href="#servicios" class="hover:text-blue-600">Servicios</a>
+        <a href="#profesionales" class="hover:text-blue-600">Únete como profesional</a>
+      </nav>
+      <a href="#cita" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Agendar cita</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="bg-blue-100 py-20 text-center">
+    <h1 class="text-4xl font-bold mb-4">Cuidados profesionales, cuando más los necesitas.</h1>
+    <p class="text-lg mb-6 max-w-xl mx-auto">Encuentra enfermeros certificados para atención domiciliaria confiable, directa y flexible.</p>
+    <a href="#cita" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Agendar atención ahora</a>
+  </section>
+
+  <!-- ¿Cómo funciona? -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-10">¿Cómo funciona Hyvelis?</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <div class="text-5xl mb-4">📝</div>
+          <h3 class="font-semibold mb-2">1. Solicita atención</h3>
+          <p>Completa el formulario con tus necesidades médicas.</p>
+        </div>
+        <div>
+          <div class="text-5xl mb-4">🤝</div>
+          <h3 class="font-semibold mb-2">2. Conecta con un profesional</h3>
+          <p>Te contactamos con un enfermero certificado cercano.</p>
+        </div>
+        <div>
+          <div class="text-5xl mb-4">🏠</div>
+          <h3 class="font-semibold mb-2">3. Recibe atención en casa</h3>
+          <p>Agenda el día y hora para tu visita.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">Servicios disponibles</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="font-bold text-lg mb-2">Cuidados por horas</h3>
+          <p>Apoyo temporal en momentos específicos del día.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="font-bold text-lg mb-2">Atención a adultos mayores</h3>
+          <p>Cuidado especializado y compañía para personas mayores.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="font-bold text-lg mb-2">Postoperatorio</h3>
+          <p>Recuperación segura tras una cirugía desde tu hogar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Únete como profesional -->
+  <section id="profesionales" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">¿Eres enfermero(a) certificado(a)?</h2>
+      <p class="mb-6">Únete a nuestra red y brinda atención a quienes más lo necesitan.</p>
+      <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Registrarme como profesional</a>
+    </div>
+  </section>
+
+  <!-- Preguntas frecuentes -->
+  <section id="faq" class="py-16 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Preguntas frecuentes</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-semibold">¿Cómo contrato un enfermero?</h3>
+          <p>Solo debes completar el formulario de cita y recibirás una confirmación.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">¿Qué servicios ofrecen?</h3>
+          <p>Desde monitoreo de signos vitales hasta cuidados postoperatorios en casa.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">¿Cómo sé que están certificados?</h3>
+          <p>Todos los profesionales pasan por un proceso de verificación de credenciales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agendar cita -->
+  <section id="cita" class="py-16 bg-white">
+    <div class="max-w-2xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Agendar una cita</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Nombre completo" class="w-full p-3 border rounded" />
+        <input type="tel" placeholder="Teléfono" class="w-full p-3 border rounded" />
+        <input type="email" placeholder="Correo electrónico" class="w-full p-3 border rounded" />
+        <textarea placeholder="Describe brevemente el tipo de atención que necesitas" class="w-full p-3 border rounded"></textarea>
+        <button class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 w-full">Enviar solicitud</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-8 text-center">
+    <p>&copy; 2025 Hyvelis. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
+
