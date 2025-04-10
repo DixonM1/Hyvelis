@@ -5,59 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hyvelis - Servicios</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body class="font-sans text-gray-800">
-  <header class="sticky top-0 bg-white shadow z-50">
+<body>
+  <header class="sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="text-2xl font-bold text-blue-600">Hyvelis</div>
+      <div class="text-2xl font-bold">Hyvelis</div>
       <nav class="space-x-6 hidden md:flex">
-        <a href="index.html" class="hover:text-blue-600">Inicio</a>
-        <a href="about.html" class="hover:text-blue-600">Quiénes somos</a>
-        <a href="faq.html" class="hover:text-blue-600">Preguntas frecuentes</a>
-        <a href="services.html" class="text-blue-600 font-semibold">Servicios</a>
-        <a href="join.html" class="hover:text-blue-600">Únete como profesional</a>
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Quiénes somos</a>
+        <a href="faq.html">Preguntas frecuentes</a>
+        <a href="services.html" class="font-semibold">Servicios</a>
+        <a href="join.html">Únete como profesional</a>
       </nav>
-      <a href="schedule.html" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Agendar cita</a>
+      <a href="schedule.html" class="bg-blue-600 text-white px-4 py-2 rounded">Agendar cita</a>
     </div>
   </header>
 
-  <section class="py-16 bg-gray-50">
+  <section class="py-16">
     <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-10">Servicios disponibles</h2>
+      <h2 class="text-center mb-10">Servicios disponibles</h2>
       <div class="grid md:grid-cols-3 gap-8">
         <div class="bg-white p-6 rounded shadow">
-          <h3 class="font-bold text-lg mb-2">Cuidados por horas</h3>
+          <h3 class="mb-2">Cuidados por horas</h3>
           <p>Apoyo temporal en momentos específicos del día.</p>
         </div>
         <div class="bg-white p-6 rounded shadow">
-          <h3 class="font-bold text-lg mb-2">Atención a adultos mayores</h3>
+          <h3 class="mb-2">Atención a adultos mayores</h3>
           <p>Cuidado especializado y compañía para personas mayores.</p>
         </div>
         <div class="bg-white p-6 rounded shadow">
-          <h3 class="font-bold text-lg mb-2">Postoperatorio</h3>
+          <h3 class="mb-2">Postoperatorio</h3>
           <p>Recuperación segura tras una cirugía desde tu hogar.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="py-16 bg-white">
+  <section class="py-16">
     <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-10">Precios de nuestros servicios</h2>
+      <h2 class="text-center mb-10">Precios de nuestros servicios</h2>
       <p class="text-center mb-8 max-w-2xl mx-auto">En Hyvelis, ofrecemos tarifas transparentes basadas en turnos y servicios específicos. Elige el cuidado que necesitas con precios claros y accesibles.</p>
 
       <div class="mb-12">
-        <h3 class="text-2xl font-semibold text-center mb-6">Tarifas por turno</h3>
+        <h3 class="text-center mb-6">Tarifas por turno</h3>
         <div class="grid md:grid-cols-3 gap-6">
-          <div class="bg-gray-100 p-4 rounded">
+          <div class="bg-white p-4 rounded shadow">
             <h4 class="font-bold">Turno A (6:00 AM - 2:00 PM)</h4>
             <p>L. 400</p>
           </div>
-          <div class="bg-gray-100 p-4 rounded">
+          <div class="bg-white p-4 rounded shadow">
             <h4 class="font-bold">Turno B (2:00 PM - 9:00 PM)</h4>
             <p>L. 500</p>
           </div>
-          <div class="bg-gray-100 p-4 rounded">
+          <div class="bg-white p-4 rounded shadow">
             <h4 class="font-bold">Turno C (9:00 PM - 6:00 AM)</h4>
             <p>L. 600</p>
           </div>
@@ -66,13 +68,13 @@
       </div>
 
       <div class="space-y-6">
-        <details class="bg-gray-100 p-4 rounded">
-          <summary class="font-semibold cursor-pointer">Servicios básicos</summary>
-          <table class="w-full mt-4 text-left">
+        <details>
+          <summary>Servicios básicos</summary>
+          <table>
             <thead>
-              <tr class="bg-blue-100">
-                <th class="p-2">Servicio</th>
-                <th class="p-2">Costo</th>
+              <tr>
+                <th>Servicio</th>
+                <th>Costo</th>
               </tr>
             </thead>
             <tbody>
@@ -101,13 +103,13 @@
           </table>
         </details>
 
-        <details class="bg-gray-100 p-4 rounded">
-          <summary class="font-semibold cursor-pointer">Procedimientos especializados</summary>
-          <table class="w-full mt-4 text-left">
+        <details>
+          <summary>Procedimientos especializados</summary>
+          <table>
             <thead>
-              <tr class="bg-blue-100">
-                <th class="p-2">Procedimiento</th>
-                <th class="p-2">Costo</th>
+              <tr>
+                <th>Procedimiento</th>
+                <th>Costo</th>
               </tr>
             </thead>
             <tbody>
@@ -143,7 +145,7 @@
     </div>
   </section>
 
-  <footer class="bg-blue-600 text-white py-8 text-center">
+  <footer class="text-white py-8 text-center">
     <p>© 2025 Hyvelis. Todos los derechos reservados.</p>
   </footer>
 
