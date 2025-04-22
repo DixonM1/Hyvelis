@@ -6,24 +6,58 @@
   <title>Hyvelis - Cuidados profesionales en casa</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-end items-center">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="logo">
+        <img src="https://dixonm1.github.io/Hyvelis/logo.png" alt="Hyvelis Logo" />
+      </div>
       <a href="schedule.html" class="bg-blue-600 text-white px-4 py-2 rounded">Agendar cita</a>
     </div>
   </header>
 
-  <!-- Logo Section -->
-  <div class="flex justify-center py-8">
-    <img src="https://dixonm1.github.io/Hyvelis/Hyvelis.png" alt="Hyvelis Logo" class="h-24" />
-  </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="max-w-6xl mx-auto text-center">
+      <h1 class="mb-4">Cuidados profesionales, cuando más los necesitas.</h1>
+      <p class="text-lg mb-6 max-w-xl mx-auto">Encuentra enfermeros certificados para atención domiciliaria confiable, directa y flexible.</p>
+      <img src="hero-image.jpg" alt="Hero Image" /> <!-- Placeholder for hero image -->
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="mb-10">Servicios que ofrecemos</h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="service-item">
+          <img src="service1.jpg" alt="Cuidados por horas" /> <!-- Placeholder for service image -->
+          <h3>Cuidados por horas</h3>
+          <p>Apoyo temporal en momentos específicos del día.</p>
+        </div>
+        <div class="service-item">
+          <img src="service2.jpg" alt="Atención a adultos mayores" /> <!-- Placeholder for service image -->
+          <h3>Atención a adultos mayores</h3>
+          <p>Cuidado especializado y compañía para personas mayores.</p>
+        </div>
+        <div class="service-item">
+          <img src="service3.jpg" alt="Postoperatorio" /> <!-- Placeholder for service image -->
+          <h3>Postoperatorio</h3>
+          <p>Recuperación segura tras una cirugía desde tu hogar.</p>
+        </div>
+        <div class="service-item">
+          <a href="services.html" class="nav-button inline-block px-6 py-3 rounded text-white">Ver más servicios</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Navigation Buttons -->
-  <section class="py-16">
+  <section class="py-16 bg-beige-light">
     <div class="max-w-6xl mx-auto px-4 text-center">
-      <h2 class="mb-10">Bienvenido a Hyvelis</h2>
+      <h2 class="mb-10">Explora Hyvelis</h2>
       <div class="grid md:grid-cols-3 gap-6">
         <a href="about.html" class="nav-button p-6 rounded shadow">
           <h3 class="mb-2">Quiénes somos</h3>
@@ -33,57 +67,5 @@
           <h3 class="mb-2">Preguntas frecuentes</h3>
           <p>Resuelve tus dudas sobre nuestros servicios.</p>
         </a>
-        <a href="services.html" class="nav-button p-6 rounded shadow">
-          <h3 class="mb-2">Servicios</h3>
-          <p>Explora los cuidados que ofrecemos.</p>
-        </a>
         <a href="join.html" class="nav-button p-6 rounded shadow">
-          <h3 class="mb-2">Únete como profesional</h3>
-          <p>Forma parte de nuestra red de enfermeros.</p>
-        </a>
-        <a href="schedule.html" class="nav-button p-6 rounded shadow">
-          <h3 class="mb-2">Agendar cita</h3>
-          <p>Solicita atención personalizada ahora.</p>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Original Hero Section -->
-  <section class="bg-blue-100 py-20 text-center">
-    <h1 class="mb-4">Cuidados profesionales, cuando más los necesitas.</h1>
-    <p class="text-lg mb-6 max-w-xl mx-auto">Encuentra enfermeros certificados para atención domiciliaria confiable, directa y flexible.</p>
-    <a href="schedule.html" class="bg-blue-600 text-white px-6 py-3 rounded">Agendar atención ahora</a>
-  </section>
-
-  <!-- How It Works -->
-  <section class="py-16">
-    <div class="max-w-6xl mx-auto px-4 text-center">
-      <h2 class="mb-10">¿Cómo funciona Hyvelis?</h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded shadow">
-          <div class="text-5xl mb-4">📝</div>
-          <h3 class="mb-2">1. Solicita atención</h3>
-          <p>Completa el formulario con tus necesidades médicas.</p>
-        </div>
-        <div class="bg-white p-6 rounded shadow">
-          <div class="text-5xl mb-4">🤝</div>
-          <h3 class="mb-2">2. Conecta con un profesional</h3>
-          <p>Te contactamos con un enfermero certificado cercano.</p>
-        </div>
-        <div class="bg-white p-6 rounded shadow">
-          <div class="text-5xl mb-4">🏠</div>
-          <h3 class="mb-2">3. Recibe atención en casa</h3>
-          <p>Agenda el día y hora para tu visita.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="text-white py-8 text-center">
-    <p>© 2025 Hyvelis. Todos los derechos reservados.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+          <h3 class="mb
