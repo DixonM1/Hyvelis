@@ -1,21 +1,19 @@
-/* styles.css */
 :root {
-  --primary-blue: #1e40af; /* Darker blue for professionalism */
-  --secondary-blue: #60a5fa; /* Lighter blue for highlights */
-  --accent-green: #10b981; /* Green for health and trust */
-  --bg-light: #f9fafb; /* Light gray background */
-  --text-dark: #1f2937; /* Dark gray for text */
+  --primary-blue: #1e40af;
+  --secondary-blue: #60a5fa;
+  --accent-green: #10b981;
+  --bg-light: #f9fafb;
+  --text-dark: #1f2937;
   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 body {
-  font-family: 'Inter', sans-serif; /* Modern, clean font */
+  font-family: 'Inter', sans-serif;
   background-color: var(--bg-light);
   color: var(--text-dark);
   line-height: 1.6;
 }
 
-/* Header */
 header {
   background: linear-gradient(90deg, var(--primary-blue), var(--secondary-blue));
   color: white;
@@ -29,7 +27,6 @@ header a:hover {
   color: var(--accent-green);
 }
 
-/* Buttons */
 .bg-blue-600 {
   background-color: var(--primary-blue);
 }
@@ -38,7 +35,6 @@ header a:hover {
   background-color: var(--accent-green);
 }
 
-/* Section Styling */
 section {
   padding: 4rem 1rem;
 }
@@ -61,7 +57,6 @@ h3 {
   font-size: 1.5rem;
 }
 
-/* Cards */
 .bg-white.shadow {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -71,7 +66,6 @@ h3 {
   box-shadow: var(--shadow);
 }
 
-/* Pricing Tables */
 details {
   border: 1px solid #e5e7eb;
   transition: all 0.3s ease;
@@ -102,7 +96,6 @@ th {
   color: white;
 }
 
-/* Form */
 input, textarea {
   border: 1px solid #d1d5db;
   transition: border-color 0.3s ease;
@@ -114,12 +107,10 @@ input:focus, textarea:focus {
   box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.2);
 }
 
-/* Footer */
 footer {
   background: var(--primary-blue);
 }
 
-/* Animations */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
