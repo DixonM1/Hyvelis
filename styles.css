@@ -1,7 +1,7 @@
 :root {
-  --primary-blue: #1e40af;
-  --secondary-blue: #60a5fa;
-  --accent-green: #10b981;
+  --primary-green: #047857; /* Darker green */
+  --secondary-green: #34d399; /* Lighter green */
+  --accent-green: #10b981; /* Kept for hover effects */
   --bg-light: #f9fafb;
   --text-dark: #1f2937;
   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  background: linear-gradient(90deg, var(--primary-blue), var(--secondary-blue));
+  background: linear-gradient(90deg, var(--primary-green), var(--secondary-green));
   color: white;
 }
 
@@ -28,7 +28,7 @@ header a:hover {
 }
 
 .bg-blue-600 {
-  background-color: var(--primary-blue);
+  background-color: var(--primary-green); /* Changed from blue to green */
 }
 
 .bg-blue-600:hover {
@@ -41,7 +41,7 @@ section {
 
 h1, h2, h3 {
   font-weight: 700;
-  color: var(--primary-blue);
+  color: var(--primary-green); /* Changed from blue to green */
 }
 
 h1 {
@@ -78,7 +78,7 @@ details[open] {
 summary {
   padding: 1rem;
   cursor: pointer;
-  color: var(--primary-blue);
+  color: var(--primary-green); /* Changed from blue to green */
 }
 
 table {
@@ -92,7 +92,7 @@ th, td {
 }
 
 th {
-  background-color: var(--secondary-blue);
+  background-color: var(--secondary-green); /* Changed from blue to green */
   color: white;
 }
 
@@ -103,12 +103,12 @@ input, textarea {
 
 input:focus, textarea:focus {
   outline: none;
-  border-color: var(--primary-blue);
-  box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.2);
+  border-color: var(--primary-green); /* Changed from blue to green */
+  box-shadow: 0 0 0 3px rgba(4, 120, 87, 0.2); /* Adjusted for green */
 }
 
 footer {
-  background: var(--primary-blue);
+  background: var(--primary-green); /* Changed from blue to green */
 }
 
 @keyframes fadeIn {
