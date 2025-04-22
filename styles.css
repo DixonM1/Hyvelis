@@ -1,6 +1,7 @@
 :root {
-  --primary-green: #047857; /* Darker green */
-  --secondary-green: #34d399; /* Lighter green */
+  --primary-green: #1a6147; /* Updated to match the darker green from the image */
+  --secondary-green: #34d399; /* Kept for the header gradient */
+  --highlight-teal: #4db6ac; /* New teal for important buttons */
   --accent-green: #10b981; /* Kept for hover effects */
   --bg-light: #f9fafb;
   --text-dark: #1f2937;
@@ -28,11 +29,23 @@ header a:hover {
 }
 
 .bg-blue-600 {
-  background-color: var(--primary-green); /* Changed from blue to green */
+  background-color: var(--primary-green); /* All buttons now use the darker green */
 }
 
 .bg-blue-600:hover {
   background-color: var(--accent-green);
+}
+
+/* Style for the navigation buttons on the home page */
+.nav-button {
+  background-color: var(--highlight-teal); /* Teal background for important buttons */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #6dd5c8; /* Slightly lighter teal on hover */
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
 }
 
 section {
@@ -41,7 +54,7 @@ section {
 
 h1, h2, h3 {
   font-weight: 700;
-  color: var(--primary-green); /* Changed from blue to green */
+  color: var(--primary-green);
 }
 
 h1 {
@@ -78,7 +91,7 @@ details[open] {
 summary {
   padding: 1rem;
   cursor: pointer;
-  color: var(--primary-green); /* Changed from blue to green */
+  color: var(--primary-green);
 }
 
 table {
@@ -92,7 +105,7 @@ th, td {
 }
 
 th {
-  background-color: var(--secondary-green); /* Changed from blue to green */
+  background-color: var(--secondary-green);
   color: white;
 }
 
@@ -103,12 +116,12 @@ input, textarea {
 
 input:focus, textarea:focus {
   outline: none;
-  border-color: var(--primary-green); /* Changed from blue to green */
-  box-shadow: 0 0 0 3px rgba(4, 120, 87, 0.2); /* Adjusted for green */
+  border-color: var(--primary-green);
+  box-shadow: 0 0 0 3px rgba(26, 97, 71, 0.2); /* Adjusted for the new green */
 }
 
 footer {
-  background: var(--primary-green); /* Changed from blue to green */
+  background: var(--primary-green);
 }
 
 @keyframes fadeIn {
