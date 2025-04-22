@@ -6,141 +6,31 @@
   <title>Hyvelis - Servicios</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-end items-center">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="logo">
+        <img src="https://dixonm1.github.io/Hyvelis/logo.png" alt="Hyvelis Logo" />
+      </div>
       <a href="schedule.html" class="bg-blue-600 text-white px-4 py-2 rounded">Agendar cita</a>
     </div>
   </header>
 
-  <section class="py-16">
+  <section class="py-16 bg-beige-light">
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-center mb-10">Servicios disponibles</h2>
       <div class="grid md:grid-cols-3 gap-8">
         <div class="bg-white p-6 rounded shadow">
-          <h3 class="mb-2">Cuidados por horas</h3>
-          <p>Apoyo temporal en momentos específicos del día.</p>
+          <img src="service1.jpg" alt="Cuidados por horas" class="w-32 h-32 object-cover rounded-full mx-auto mb-4" />
+          <h3 class="mb-2 text-center">Cuidados por horas</h3>
+          <p class="text-center">Apoyo temporal en momentos específicos del día.</p>
         </div>
         <div class="bg-white p-6 rounded shadow">
-          <h3 class="mb-2">Atención a adultos mayores</h3>
-          <p>Cuidado especializado y compañía para personas mayores.</p>
+          <img src="service2.jpg" alt="Atención a adultos mayores" class="w-32 h-32 object-cover rounded-full mx-auto mb-4" />
+          <h3 class="mb-2 text-center">Atención a adultos mayores</h3>
+          <p class="text-center">Cuidado especializado y compañía para personas mayores.</p>
         </div>
         <div class="bg-white p-6 rounded shadow">
-          <h3 class="mb-2">Postoperatorio</h3>
-          <p>Recuperación segura tras una cirugía desde tu hogar.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-16">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-center mb-10">Precios de nuestros servicios</h2>
-      <p class="text-center mb-8 max-w-2xl mx-auto">En Hyvelis, ofrecemos tarifas transparentes basadas en turnos y servicios específicos. Elige el cuidado que necesitas con precios claros y accesibles.</p>
-
-      <div class="mb-12">
-        <h3 class="text-center mb-6">Tarifas por turno</h3>
-        <div class="grid md:grid-cols-3 gap-6">
-          <div class="bg-white p-4 rounded shadow">
-            <h4 class="font-bold">Turno A (6:00 AM - 2:00 PM)</h4>
-            <p>L. 400</p>
-          </div>
-          <div class="bg-white p-4 rounded shadow">
-            <h4 class="font-bold">Turno B (2:00 PM - 9:00 PM)</h4>
-            <p>L. 500</p>
-          </div>
-          <div class="bg-white p-4 rounded shadow">
-            <h4 class="font-bold">Turno C (9:00 PM - 6:00 AM)</h4>
-            <p>L. 600</p>
-          </div>
-        </div>
-        <p class="text-sm text-center mt-4">*Precios base por turno de vigilancia. Servicios adicionales se suman según la tabla siguiente.</p>
-      </div>
-
-      <div class="space-y-6">
-        <details>
-          <summary>Servicios básicos</summary>
-          <table>
-            <thead>
-              <tr>
-                <th>Servicio</th>
-                <th>Costo</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td>Toma de Presión Arterial</td><td>L. 20.00</td></tr>
-              <tr><td>Toma de Glicemia</td><td>L. 60.00</td></tr>
-              <tr><td>Aplicación de Inyección Intramuscular</td><td>L. 30.00</td></tr>
-              <tr><td>Aplicación de Inyección de Antibiótico</td><td>L. 40.00</td></tr>
-              <tr><td>Aplicación de Inyección Endovenosa</td><td>L. 60.00</td></tr>
-              <tr><td>Nebulización</td><td>L. 60.00</td></tr>
-              <tr><td>Aplicación de Suero</td><td>L. 250.00</td></tr>
-              <tr><td>Control Pre-Natal</td><td>L. 150.00</td></tr>
-              <tr><td>Citología</td><td>L. 270.00</td></tr>
-              <tr><td>Retiro del DIU + Consulta</td><td>L. 270.00</td></tr>
-              <tr><td>Revisión del DIU + Consulta</td><td>L. 200.00</td></tr>
-              <tr><td>Retiro de Implaron (unidad)</td><td>L. 270.00</td></tr>
-              <tr><td>Lavado de Cada Oído</td><td>L. 170.00</td></tr>
-              <tr><td>Extracción de Uña (Unidad)</td><td>L. 280.00</td></tr>
-              <tr><td>Sutura + Consulta (Hasta 3 puntos)</td><td>L. 250.00</td></tr>
-              <tr><td>Retiro de Puntos + Consulta</td><td>L. 150.00</td></tr>
-              <tr><td>Curación de Herida + Consulta</td><td>L. 150.00</td></tr>
-              <tr><td>Curación de Ulcera + Consulta</td><td>L. 250.00</td></tr>
-              <tr><td>Colocación de Sonda</td><td>L. 180.00</td></tr>
-              <tr><td>Extracción de Lipoma</td><td>L. 330.00</td></tr>
-              <tr><td>Extracción de Quiste</td><td>L. 330.00</td></tr>
-            </tbody>
-          </table>
-        </details>
-
-        <details>
-          <summary>Procedimientos especializados</summary>
-          <table>
-            <thead>
-              <tr>
-                <th>Procedimiento</th>
-                <th>Costo</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td>Canalización de Vía Periférica</td><td>L. 800.00</td></tr>
-              <tr><td>Administración de Medicamentos Intravenosos</td><td>L. 800.00</td></tr>
-              <tr><td>Administración de Líquidos Intravenosos (4 horas)</td><td>L. 1,500.00</td></tr>
-              <tr><td>Administración de Medicamentos Intramusculares</td><td>L. 400.00</td></tr>
-              <tr><td>Administración de Medicamentos Subcutáneos</td><td>L. 500.00</td></tr>
-              <tr><td>Administración de Medicamentos Intradérmicos</td><td>L. 500.00</td></tr>
-              <tr><td>Curación de Heridas Limpia</td><td>L. 500.00</td></tr>
-              <tr><td>Curación de Herida Contaminada</td><td>L. 1,000.00</td></tr>
-              <tr><td>Sutura de Heridas (Dependiendo de la Valoración)</td><td>L. 500.00</td></tr>
-              <tr><td>Retiro de Puntos</td><td>L. 800.00</td></tr>
-              <tr><td>Aplicación de Oxígeno</td><td>L. 500.00</td></tr>
-              <tr><td>Extracción de Muestras Sanguíneas</td><td>L. 800.00</td></tr>
-              <tr><td>Extracción de Gases Arteriales</td><td>L. 800.00</td></tr>
-              <tr><td>Nebulizaciones</td><td>L. 300.00</td></tr>
-              <tr><td>Terapia Respiratoria</td><td>L. 700.00</td></tr>
-              <tr><td>Toma de Glucometría</td><td>L. 300.00</td></tr>
-              <tr><td>Colocación de Sonda Nasogástrica</td><td>L. 1,500.00</td></tr>
-              <tr><td>Retiro de Sonda Nasogástrica</td><td>L. 700.00</td></tr>
-              <tr><td>Alimentación Enteral por Sonda Nasogástrica o Gastrostomía (1 hora)</td><td>L. 800.00</td></tr>
-              <tr><td>Colocación de Sonda Vesical</td><td>L. 1,500.00</td></tr>
-              <tr><td>Retiro de Sonda Vesical</td><td>L. 700.00</td></tr>
-              <tr><td>Irrigación por Sonda Vesical</td><td>L. 1,000.00</td></tr>
-              <tr><td>Cambio de Sonda por Cistostomía</td><td>L. 1,500.00</td></tr>
-              <tr><td>Enema Evacuante</td><td>L. 900.00</td></tr>
-              <tr><td>Limpieza y Cambio de Bolsa de Colostomía</td><td>L. 1,000.00</td></tr>
-            </tbody>
-          </table>
-        </details>
-      </div>
-    </div>
-  </section>
-
-  <footer class="text-white py-8 text-center">
-    <p>© 2025 Hyvelis. Todos los derechos reservados.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+          <img src="service3.jpg" alt="Postoperatorio
