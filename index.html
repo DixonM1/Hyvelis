@@ -4,36 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hyvelis</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-    header, footer { background: #264e36; color: white; text-align: center; padding: 1rem; }
-    nav ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; }
-    nav a { color: white; text-decoration: none; font-weight: bold; }
-    section { padding: 1.5rem; background: white; margin: 1rem auto; max-width: 960px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    h2 { color: #264e36; margin-bottom: 1rem; }
-    table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; }
-    th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
-    th { background: #cfe8d7; color: #264e36; }
-    @media (max-width: 768px) {
-      nav ul { flex-direction: column; align-items: center; }
-      table { font-size: 0.9rem; }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Hyvelis</h1>
+    <h1>Bienvenido a Hyvelis</h1>
     <p>Atención de salud en casa por profesionales verificados</p>
     <nav>
       <ul>
+        <li><a href="#hyvelis-direct">¿Qué es Hyvelis Direct?</a></li>
         <li><a href="#servicios">Servicios</a></li>
         <li><a href="#turnos">Turnos</a></li>
       </ul>
     </nav>
   </header>
 
+  <section class="hero-image">
+    <p style="text-align:center; font-style:italic;">[Espacio reservado para imagen de portada]</p>
+  </section>
+
+  <section id="hyvelis-direct">
+    <h2>¿Qué es Hyvelis Direct?</h2>
+    <p>Hyvelis Direct es nuestro servicio estrella que conecta a familias con enfermeros profesionales verificados, listos para brindar atención personalizada en casa, ya sea por unas horas o durante períodos más largos. Todo esto, de forma rápida, segura y sin complicaciones.</p>
+    <p>La plataforma ha sido diseñada para personas que necesitan apoyo en el cuidado de un ser querido, pero que no siempre pueden estar presentes. Con Hyvelis Direct, puedes solicitar atención médica confiable directamente desde tu celular o computadora, eligiendo el tiempo y tipo de servicio que más se ajusta a tus necesidades.</p>
+    <ul>
+      <li><strong>Geolocalización:</strong> conecta con el profesional más cercano.</li>
+      <li><strong>Flexibilidad:</strong> elige el tiempo exacto que necesitas.</li>
+      <li><strong>Perfil verificado:</strong> enfermeros evaluados y certificados.</li>
+      <li><strong>Pagos digitales seguros:</strong> sin necesidad de efectivo.</li>
+      <li><strong>Reseñas públicas:</strong> confianza basada en la experiencia de otros.</li>
+    </ul>
+  </section>
+
   <section id="servicios">
     <h2>Servicios Básicos y Avanzados</h2>
+    <p>Estos son algunos de los servicios que puedes solicitar a través de nuestra plataforma:</p>
     <table>
       <thead>
         <tr><th>#</th><th>Tipo de Servicio</th><th>Precio</th></tr>
@@ -53,62 +58,31 @@
         <tr><td>12</td><td>Retiro de Implaron</td><td>L. 270.00</td></tr>
         <tr><td>13</td><td>Lavado de Oído</td><td>L. 170.00</td></tr>
         <tr><td>14</td><td>Extracción de Uña</td><td>L. 280.00</td></tr>
-        <tr><td>15</td><td>Sutura + Consulta (hasta 3 puntos)</td><td>L. 250.00</td></tr>
+        <tr><td>15</td><td>Sutura + Consulta</td><td>L. 250.00</td></tr>
         <tr><td>16</td><td>Retiro de Puntos + Consulta</td><td>L. 150.00</td></tr>
         <tr><td>17</td><td>Curación de Herida + Consulta</td><td>L. 150.00</td></tr>
         <tr><td>18</td><td>Curación de Úlcera + Consulta</td><td>L. 250.00</td></tr>
         <tr><td>19</td><td>Colocación de Sonda</td><td>L. 180.00</td></tr>
         <tr><td>20</td><td>Extracción de Lipoma</td><td>L. 330.00</td></tr>
         <tr><td>21</td><td>Extracción de Quiste</td><td>L. 330.00</td></tr>
-      </tbody>
-    </table>
-
-    <h3>Procedimientos Específicos</h3>
-    <table>
-      <thead>
-        <tr><th>#</th><th>Procedimiento</th><th>Precio</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>1</td><td>Canalización de Vía Periférica</td><td>L. 800.00</td></tr>
-        <tr><td>2</td><td>Medicamentos Intravenosos</td><td>L. 800.00</td></tr>
-        <tr><td>3</td><td>Líquidos Intravenosos (4 horas)</td><td>L. 1,500.00</td></tr>
-        <tr><td>4</td><td>Medicamentos Intramusculares</td><td>L. 400.00</td></tr>
-        <tr><td>5</td><td>Medicamentos Subcutáneos</td><td>L. 500.00</td></tr>
-        <tr><td>6</td><td>Medicamentos Intradérmicos</td><td>L. 500.00</td></tr>
-        <tr><td>7</td><td>Curación de Herida Limpia</td><td>L. 500.00</td></tr>
-        <tr><td>8</td><td>Herida Contaminada</td><td>L. 1,000.00</td></tr>
-        <tr><td>9</td><td>Sutura según valoración</td><td>L. 500.00</td></tr>
-        <tr><td>10</td><td>Retiro de Puntos</td><td>L. 800.00</td></tr>
-        <tr><td>11</td><td>Aplicación de Oxígeno</td><td>L. 500.00</td></tr>
-        <tr><td>12</td><td>Extracción de Muestras Sanguíneas</td><td>L. 800.00</td></tr>
-        <tr><td>13</td><td>Extracción de Gases Arteriales</td><td>L. 800.00</td></tr>
-        <tr><td>14</td><td>Nebulizaciones (extra)</td><td>L. 300.00</td></tr>
-        <tr><td>15</td><td>Terapia Respiratoria</td><td>L. 700.00</td></tr>
-        <tr><td>16</td><td>Toma de Glucometría</td><td>L. 300.00</td></tr>
-        <tr><td>17</td><td>Colocación de Sonda Nasogástrica</td><td>L. 1,500.00</td></tr>
-        <tr><td>18</td><td>Retiro de Sonda Nasogástrica</td><td>L. 700.00</td></tr>
-        <tr><td>19</td><td>Alimentación por Sonda</td><td>L. 800.00</td></tr>
-        <tr><td>20</td><td>Colocación de Sonda Vesical</td><td>L. 1,500.00</td></tr>
-        <tr><td>21</td><td>Retiro de Sonda Vesical</td><td>L. 700.00</td></tr>
-        <tr><td>22</td><td>Irrigación Vesical</td><td>L. 1,000.00</td></tr>
-        <tr><td>23</td><td>Cambio de Sonda Cistostomía</td><td>L. 1,500.00</td></tr>
-        <tr><td>24</td><td>Enema Evacuante</td><td>L. 900.00</td></tr>
-        <tr><td>25</td><td>Cambio de Bolsa de Colostomía</td><td>L. 1,000.00</td></tr>
+        <tr><td>22</td><td>Canalización Vía Periférica</td><td>L. 800.00</td></tr>
+        <tr><td>23</td><td>Administración IV</td><td>L. 800.00</td></tr>
+        <tr><td>24</td><td>Curación Herida Contaminada</td><td>L. 1,000.00</td></tr>
       </tbody>
     </table>
   </section>
 
   <section id="turnos">
-    <h2>Turnos y Comisión</h2>
+    <h2>Turnos Disponibles y Comisiones</h2>
     <ul>
-      <li>Turno A (6:00 AM - 2:00 PM): L. 400.00 (comisión: L. 120.00, ganancia: L. 280.00)</li>
-      <li>Turno B (2:00 PM - 9:00 PM): L. 500.00 (comisión: L. 150.00, ganancia: L. 350.00)</li>
-      <li>Turno C (9:00 PM - 6:00 AM): L. 600.00 (comisión: L. 180.00, ganancia: L. 420.00)</li>
+      <li><strong>Turno A (6:00 AM - 2:00 PM):</strong> L. 400.00 → Comisión: L. 120.00 → Enfermero gana: L. 280.00</li>
+      <li><strong>Turno B (2:00 PM - 9:00 PM):</strong> L. 500.00 → Comisión: L. 150.00 → Enfermero gana: L. 350.00</li>
+      <li><strong>Turno C (9:00 PM - 6:00 AM):</strong> L. 600.00 → Comisión: L. 180.00 → Enfermero gana: L. 420.00</li>
     </ul>
   </section>
 
   <footer>
-    <p>© 2025 Hyvelis. Atención de salud en casa.</p>
+    <p>© 2025 Hyvelis. Atención profesional donde más lo necesitas.</p>
   </footer>
 </body>
 </html>
