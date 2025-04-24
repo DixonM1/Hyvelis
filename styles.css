@@ -1,90 +1,74 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #f8fdf9;
+/* Reset básico */
+* {
   margin: 0;
   padding: 0;
-  color: #333;
+  box-sizing: border-box;
 }
 
-header, footer {
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4fdf7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
   background-color: #264e36;
   color: white;
-  padding: 1rem;
-  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 1rem;
 }
 
 nav ul {
-  list-style: none;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: 0;
+  list-style: none;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero con imagen */
 .hero-image {
-  height: 200px;
-  background-color: #d9ede2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-style: italic;
-  color: #264e36;
+  position: relative;
+  text-align: center;
 }
 
-section {
-  max-width: 960px;
-  margin: auto;
-  padding: 2rem;
-  background: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  margin-top: 1rem;
-  border-radius: 8px;
-}
-
-h2 {
-  color: #264e36;
-  margin-bottom: 1rem;
-}
-
-table {
+.hero-image img.full-banner {
   width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
+  max-height: 400px;
+  object-fit: cover;
 }
 
-th, td {
-  border: 1px solid #ccc;
-  padding: 0.75rem;
-  text-align: left;
+.hero-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
 }
 
-th {
-  background-color: #cfe8d7;
-  color: #264e36;
-}
-
-ul {
-  padding-left: 1.5rem;
-}
-
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  body {
-    font-size: 0.95rem;
-  }
-
-  .hero-image {
-    height: 150px;
-  }
-}
+.cta-button {
+  background-color: #
