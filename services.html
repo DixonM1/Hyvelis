@@ -1,121 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hyvelis - Cuidados profesionales en casa</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Hyvelis</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="logo">
-        <img src="https://dixonm1.github.io/Hyvelis/logo.png" alt="Hyvelis Logo" />
-      </div>
-      <a href="schedule.html" class="bg-blue-600 text-white px-4 py-2 rounded">Agendar cita</a>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="max-w-6xl mx-auto text-center">
-      <h1 class="mb-4">Cuidados profesionales, cuando más los necesitas.</h1>
-      <p class="text-lg mb-6 max-w-xl mx-auto">Encuentra enfermeros certificados para atención domiciliaria confiable, directa y flexible.</p>
-      <img src="hero-image.jpg" alt="Hero Image" /> <!-- Placeholder for hero image -->
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section class="services">
-    <div class="max-w-6xl mx-auto text-center">
-      <h2 class="mb-10">Servicios que ofrecemos</h2>
-      <div class="grid md:grid-cols-4 gap-8">
-        <div class="service-item">
-          <img src="service1.jpg" alt="Cuidados por horas" /> <!-- Placeholder for service image -->
-          <h3>Cuidados por horas</h3>
-          <p>Apoyo temporal en momentos específicos del día.</p>
+    <header>
+        <div class="logo">
+            <img src="https://via.placeholder.com/50" alt="Hyvelis Logo">
         </div>
-        <div class="service-item">
-          <img src="service2.jpg" alt="Atención a adultos mayores" /> <!-- Placeholder for service image -->
-          <h3>Atención a adultos mayores</h3>
-          <p>Cuidado especializado y compañía para personas mayores.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="como-funciona.html">Cómo Funciona</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="agendar-cita.html">Agendar Cita</a></li>
+                <li><a href="unirse-como-personal.html">Unirse como Personal</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Nuestros Servicios</h1>
+        <table class="services-table">
+            <thead>
+                <tr>
+                    <th>Tipo de Servicio</th>
+                    <th>Descripción</th>
+                    <th>Precio (Lempiras)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Tipo de Servicio">Turno A (6:00 AM - 2:00 PM)</td>
+                    <td data-label="Descripción">Vigilancia y cuidado básico</td>
+                    <td data-label="Precio (Lempiras)">400</td>
+                </tr>
+                <tr>
+                    <td data-label="Tipo de Servicio">Turno B (2:00 PM - 9:00 PM)</td>
+                    <td data-label="Descripción">Vigilancia y cuidado básico</td>
+                    <td data-label="Precio (Lempiras)">500</td>
+                </tr>
+                <tr>
+                    <td data-label="Tipo de Servicio">Turno C (9:00 PM - 6:00 AM)</td>
+                    <td data-label="Descripción">Vigilancia y cuidado básico</td>
+                    <td data-label="Precio (Lempiras)">600</td>
+                </tr>
+                <tr>
+                    <td data-label="Tipo de Servicio">Toma de Presión Arterial</td>
+                    <td data-label="Descripción">Medición de la presión arterial</td>
+                    <td data-label="Precio (Lempiras)">20</td>
+                </tr>
+                <tr>
+                    <td data-label="Tipo de Servicio">Aplicación de Suero</td>
+                    <td data-label="Descripción">Administración de suero intravenoso</td>
+                    <td data-label="Precio (Lempiras)">250</td>
+                </tr>
+                <!-- Add more services from the document as needed -->
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <div class="contact">
+            <p>Contáctanos: info@hyvelis.com | +504 1234-5678</p>
+            <p>Tegucigalpa, Honduras</p>
         </div>
-        <div class="service-item">
-          <img src="service3.jpg" alt="Postoperatorio" /> <!-- Placeholder for service image -->
-          <h3>Postoperatorio</h3>
-          <p>Recuperación segura tras una cirugía desde tu hogar.</p>
-        </div>
-        <div class="service-item">
-          <a href="services.html" class="nav-button inline-block px-6 py-3 rounded text-white">Ver más servicios</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Navigation Buttons -->
-  <section class="py-16 bg-beige-light">
-    <div class="max-w-6xl mx-auto px-4 text-center">
-      <h2 class="mb-10">Explora Hyvelis</h2>
-      <div class="grid md:grid-cols-3 gap-6">
-        <a href="about.html" class="nav-button p-6 rounded shadow">
-          <h3 class="mb-2">Quiénes somos</h3>
-          <p>Conoce más sobre nuestra misión y valores.</p>
-        </a>
-        <a href="faq.html" class="nav-button p-6 rounded shadow">
-          <h3 class="mb-2">Preguntas frecuentes</h3>
-          <p>Resuelve tus dudas sobre nuestros servicios.</p>
-        </a>
-        <a href="join.html" class="nav-button p-6 rounded shadow">
-          <h3 class="mb-2">Únete como profesional</h3>
-          <p>Forma parte de nuestra red de enfermeros.</p>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Mission Section -->
-  <section class="mission">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
-      <div>
-        <img src="mission-image.jpg" alt="Mission Image" /> <!-- Placeholder for mission image -->
-      </div>
-      <div>
-        <h2 class="mb-4">Nuestra misión</h2>
-        <p>Somos Hyvelis, una plataforma dedicada a conectar a pacientes con enfermeros certificados para brindar cuidados profesionales en la comodidad de tu hogar. Nuestra misión es ofrecer atención confiable, flexible y personalizada.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact">
-    <div class="content max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-      <div>
-        <h2 class="mb-4">Contáctanos</h2>
-        <form id="scheduleForm" class="space-y-4">
-          <input type="text" name="name" placeholder="Nombre completo" class="w-full p-3 rounded" required />
-          <input type="tel" name="phone" placeholder="Teléfono" class="w-full p-3 rounded" required />
-          <input type="email" name="email" placeholder="Correo electrónico" class="w-full p-3 rounded" required />
-          <textarea name="description" placeholder="Describe brevemente el tipo de atención que necesitas" class="w-full p-3 rounded" required></textarea>
-          <button type="submit" class="text-white px-6 py-3 rounded w-full">Enviar solicitud</button>
-        </form>
-        <p id="formMessage" class="text-center mt-4 hidden"></p>
-      </div>
-      <div>
-        <h3 class="mb-4">Encuéntranos</h3>
-        <p>Dirección: [Tu dirección aquí]</p>
-        <p>Teléfono: [Tu teléfono aquí]</p>
-        <p>Email: [Tu email aquí]</p>
-        <img src="map-image.jpg" alt="Map Image" class="mt-4" /> <!-- Placeholder for map image -->
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2025 Hyvelis. Todos los derechos reservados.</p>
-  </footer>
-
-  <script src="script.js"></script>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="como-funciona.html">Cómo Funciona</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="agendar-cita.html">Agendar Cita</a></li>
+                <li><a href="unirse-como-personal.html">Unirse como Personal</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2023 Hyvelis. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
