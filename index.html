@@ -8,19 +8,29 @@
 </head>
 <body>
   <header>
-    <h1>Bienvenido a Hyvelis</h1>
-    <p>Atención de salud en casa por profesionales verificados</p>
+    <div class="header-content">
+      <img src="logo.png" alt="Hyvelis Logo" class="logo">
+      <div>
+        <h1>Bienvenido a Hyvelis</h1>
+        <p>Atención de salud en casa por profesionales verificados</p>
+      </div>
+    </div>
     <nav>
       <ul>
         <li><a href="#hyvelis-direct">¿Qué es Hyvelis Direct?</a></li>
         <li><a href="#servicios">Servicios</a></li>
         <li><a href="#turnos">Turnos</a></li>
+        <li><a href="#unete">Únete al equipo</a></li>
+        <li><a href="#agendar">Agendar Cita</a></li>
       </ul>
     </nav>
   </header>
 
   <section class="hero-image">
-    <p style="text-align:center; font-style:italic;">[Espacio reservado para imagen de portada]</p>
+    <img src="portada.jpg" alt="Imagen de portada" class="full-banner">
+    <div class="hero-button">
+      <a href="#agendar" class="cta-button">Agendar cita ya</a>
+    </div>
   </section>
 
   <section id="hyvelis-direct">
@@ -39,46 +49,35 @@
   <section id="servicios">
     <h2>Servicios Básicos y Avanzados</h2>
     <p>Estos son algunos de los servicios que puedes solicitar a través de nuestra plataforma:</p>
-    <table>
-      <thead>
-        <tr><th>#</th><th>Tipo de Servicio</th><th>Precio</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>1</td><td>Toma de Presión Arterial</td><td>L. 20.00</td></tr>
-        <tr><td>2</td><td>Toma de Glicemia</td><td>L. 60.00</td></tr>
-        <tr><td>3</td><td>Inyección Intramuscular</td><td>L. 30.00</td></tr>
-        <tr><td>4</td><td>Inyección de Antibiótico</td><td>L. 40.00</td></tr>
-        <tr><td>5</td><td>Inyección Endovenosa</td><td>L. 60.00</td></tr>
-        <tr><td>6</td><td>Nebulización</td><td>L. 60.00</td></tr>
-        <tr><td>7</td><td>Aplicación de Suero</td><td>L. 250.00</td></tr>
-        <tr><td>8</td><td>Control Pre-Natal</td><td>L. 150.00</td></tr>
-        <tr><td>9</td><td>Citología</td><td>L. 270.00</td></tr>
-        <tr><td>10</td><td>Retiro del DIU + Consulta</td><td>L. 270.00</td></tr>
-        <tr><td>11</td><td>Revisión del DIU + Consulta</td><td>L. 200.00</td></tr>
-        <tr><td>12</td><td>Retiro de Implaron</td><td>L. 270.00</td></tr>
-        <tr><td>13</td><td>Lavado de Oído</td><td>L. 170.00</td></tr>
-        <tr><td>14</td><td>Extracción de Uña</td><td>L. 280.00</td></tr>
-        <tr><td>15</td><td>Sutura + Consulta</td><td>L. 250.00</td></tr>
-        <tr><td>16</td><td>Retiro de Puntos + Consulta</td><td>L. 150.00</td></tr>
-        <tr><td>17</td><td>Curación de Herida + Consulta</td><td>L. 150.00</td></tr>
-        <tr><td>18</td><td>Curación de Úlcera + Consulta</td><td>L. 250.00</td></tr>
-        <tr><td>19</td><td>Colocación de Sonda</td><td>L. 180.00</td></tr>
-        <tr><td>20</td><td>Extracción de Lipoma</td><td>L. 330.00</td></tr>
-        <tr><td>21</td><td>Extracción de Quiste</td><td>L. 330.00</td></tr>
-        <tr><td>22</td><td>Canalización Vía Periférica</td><td>L. 800.00</td></tr>
-        <tr><td>23</td><td>Administración IV</td><td>L. 800.00</td></tr>
-        <tr><td>24</td><td>Curación Herida Contaminada</td><td>L. 1,000.00</td></tr>
-      </tbody>
-    </table>
+    <!-- tabla de servicios... -->
   </section>
 
   <section id="turnos">
     <h2>Turnos Disponibles y Comisiones</h2>
-    <ul>
-      <li><strong>Turno A (6:00 AM - 2:00 PM):</strong> L. 400.00 → Comisión: L. 120.00 → Enfermero gana: L. 280.00</li>
-      <li><strong>Turno B (2:00 PM - 9:00 PM):</strong> L. 500.00 → Comisión: L. 150.00 → Enfermero gana: L. 350.00</li>
-      <li><strong>Turno C (9:00 PM - 6:00 AM):</strong> L. 600.00 → Comisión: L. 180.00 → Enfermero gana: L. 420.00</li>
-    </ul>
+    <!-- contenido de turnos... -->
+  </section>
+
+  <section id="unete">
+    <h2>¿Quieres formar parte de Hyvelis?</h2>
+    <p>Estamos buscando enfermeros comprometidos, apasionados por el cuidado y con ganas de ayudar. Regístrate para unirte a nuestro equipo.</p>
+    <form>
+      <input type="text" placeholder="Nombre completo">
+      <input type="email" placeholder="Correo electrónico">
+      <input type="file" placeholder="Sube tu CV">
+      <textarea placeholder="Cuéntanos por qué quieres unirte"></textarea>
+      <button type="submit">Enviar solicitud</button>
+    </form>
+  </section>
+
+  <section id="agendar">
+    <h2>Agendar una Cita</h2>
+    <form>
+      <input type="text" placeholder="Nombre completo">
+      <input type="email" placeholder="Correo electrónico">
+      <input type="date">
+      <textarea placeholder="Detalles del servicio requerido"></textarea>
+      <button type="submit">Agendar</button>
+    </form>
   </section>
 
   <footer>
