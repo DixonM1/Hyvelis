@@ -1,89 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hyvelis - Cuidados profesionales en casa</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hyvelis - Atención de Salud en Casa</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="logo">
-        <img src="https://dixonm1.github.io/Hyvelis/logo.png" alt="Hyvelis Logo" />
-      </div>
-      <a href="schedule.html" class="bg-blue-600 text-white px-4 py-2 rounded">Agendar cita</a>
-    </div>
+  <header>
+    <div class="logo">Hyvelis</div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#faq">Preguntas Frecuentes</a></li>
+        <li><a href="#funciona">¿Cómo Funciona?</a></li>
+        <li><a href="#nosotros">Quiénes Somos</a></li>
+        <li><a href="#cita">Agendar Cita</a></li>
+        <li><a href="#unirse">Únete al Equipo</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero bg-blue-100">
-    <div class="max-w-6xl mx-auto text-center">
-      <h1 class="mb-4">Cuidados profesionales, cuando más los necesitas.</h1>
-      <p class="text-lg mb-6 max-w-xl mx-auto">Encuentra enfermeros certificados para atención domiciliaria confiable, directa y flexible.</p>
-      <a href="schedule.html" class="bg-blue-600 text-white px-6 py-3 rounded">Agendar atención ahora</a>
+  <section id="inicio" class="hero">
+    <h1>Bienvenido a Hyvelis</h1>
+    <p>Conectamos a tu familia con profesionales de salud verificados, listos para atender en casa.</p>
+    <div class="hero-images">
+      <img src="img1.jpg" alt="Imagen 1">
+      <img src="img2.jpg" alt="Imagen 2">
+      <img src="img3.jpg" alt="Imagen 3">
+      <img src="img4.jpg" alt="Imagen 4">
     </div>
   </section>
 
-  <!-- Navigation Buttons -->
-  <section class="py-16">
-    <div class="max-w-6xl mx-auto px-4 text-center">
-      <h2 class="mb-10">Bienvenido a Hyvelis</h2>
-      <div class="grid md:grid-cols-3 gap-6">
-        <a href="about.html" class="nav-button p-6 rounded shadow">
-          <h3 class="mb-2">Quiénes somos</h3>
-          <p>Conoce más sobre nuestra misión y valores.</p>
-        </a>
-        <a href="faq.html" class="nav-button p-6 rounded shadow">
-          <h3 class="mb-2">Preguntas frecuentes</h3>
-          <p>Resuelve tus dudas sobre nuestros servicios.</p>
-        </a>
-        <a href="services.html" class="nav-button p-6 rounded shadow">
-          <h3 class="mb-2">Servicios</h3>
-          <p>Explora los cuidados que ofrecemos.</p>
-        </a>
-        <a href="join.html" class="nav-button p-6 rounded shadow">
-          <h3 class="mb-2">Únete como profesional</h3>
-          <p>Forma parte de nuestra red de enfermeros.</p>
-        </a>
-        <a href="schedule.html" class="nav-button p-6 rounded shadow">
-          <h3 class="mb-2">Agendar cita</h3>
-          <p>Solicita atención personalizada ahora.</p>
-        </a>
-      </div>
-    </div>
+  <section id="servicios">
+    <h2>Servicios y Precios</h2>
+    <table>
+      <thead>
+        <tr><th>Servicio</th><th>Precio</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Toma de Presión Arterial</td><td>L. 20.00</td></tr>
+        <tr><td>Toma de Glicemia</td><td>L. 60.00</td></tr>
+        <tr><td>Aplicación de Inyección Intramuscular</td><td>L. 30.00</td></tr>
+        <!-- Más filas aquí -->
+      </tbody>
+    </table>
   </section>
 
-  <!-- How It Works -->
-  <section class="how-it-works">
-    <div class="max-w-6xl mx-auto px-4 text-center">
-      <h2 class="mb-10">¿Cómo funciona Hyvelis?</h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="step p-6 rounded shadow">
-          <div class="text-5xl mb-4">📝</div>
-          <h3 class="mb-2">1. Solicita atención</h3>
-          <p>Completa el formulario con tus necesidades médicas.</p>
-        </div>
-        <div class="step p-6 rounded shadow">
-          <div class="text-5xl mb-4">🤝</div>
-          <h3 class="mb-2">2. Conecta con un profesional</h3>
-          <p>Te contactamos con un enfermero certificado cercano.</p>
-        </div>
-        <div class="step p-6 rounded shadow">
-          <div class="text-5xl mb-4">🏠</div>
-          <h3 class="mb-2">3. Recibe atención en casa</h3>
-          <p>Agenda el día y hora para tu visita.</p>
-        </div>
-      </div>
-    </div>
+  <section id="faq">
+    <h2>Preguntas Frecuentes</h2>
+    <p><strong>¿Cómo puedo solicitar un enfermero?</strong> A través de nuestra plataforma web.</p>
+    <p><strong>¿Qué métodos de pago aceptan?</strong> Efectivo, tarjeta, transferencia y pagos en la plataforma.</p>
+    <!-- Más preguntas -->
+  </section>
+
+  <section id="funciona">
+    <h2>¿Cómo Funciona?</h2>
+    <ol>
+      <li>Selecciona el servicio que necesitas.</li>
+      <li>Ubica un profesional cercano.</li>
+      <li>Reserva y paga de forma segura.</li>
+      <li>Recibe atención en casa.</li>
+    </ol>
+  </section>
+
+  <section id="nosotros">
+    <h2>Quiénes Somos</h2>
+    <p>Hyvelis nace como una solución digital confiable para conectar familias con enfermeros profesionales capacitados, brindando atención inmediata y segura.</p>
+  </section>
+
+  <section id="cita">
+    <h2>Agendar una Cita</h2>
+    <form>
+      <input type="text" placeholder="Nombre completo">
+      <input type="email" placeholder="Correo electrónico">
+      <input type="date" placeholder="Fecha">
+      <textarea placeholder="Detalles del servicio requerido"></textarea>
+      <button type="submit">Agendar</button>
+    </form>
+  </section>
+
+  <section id="unirse">
+    <h2>Únete a Hyvelis</h2>
+    <form>
+      <input type="text" placeholder="Nombre completo">
+      <input type="email" placeholder="Correo electrónico">
+      <input type="file" placeholder="Sube tu CV">
+      <textarea placeholder="Motivación para unirte a nuestro equipo"></textarea>
+      <button type="submit">Enviar Solicitud</button>
+    </form>
   </section>
 
   <footer>
     <p>© 2025 Hyvelis. Todos los derechos reservados.</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
