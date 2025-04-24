@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #F5F6F5;
 }
 
 header {
-    background-color: #6B7280;
+    background-color: #2E8B57;
     color: white;
     padding: 1rem;
     display: flex;
@@ -14,8 +14,19 @@ header {
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .logo img {
     height: 50px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 nav ul {
@@ -48,20 +59,43 @@ nav a:hover {
 }
 
 .hero h1 {
-    color: #6B7280;
+    color: #2E8B57;
+}
+
+.hero p {
+    color: #555;
 }
 
 .btn {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background-color: #6B7280;
+    background-color: #40E0D0;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .btn:hover {
-    background-color: #40E0D0;
+    background-color: #2E8B57;
+}
+
+.about, .values, .features {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.values ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.values li {
+    margin-bottom: 1rem;
 }
 
 .features {
@@ -69,13 +103,12 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    padding: 2rem;
 }
 
 .feature {
     flex: 1 1 200px;
     text-align: center;
-    background-color: #fff;
+    background-color: #F5F6F5;
     padding: 1rem;
     border-radius: 5px;
 }
@@ -85,22 +118,17 @@ nav a:hover {
     height: auto;
 }
 
-.about {
-    padding: 2rem;
-    text-align: center;
-    background-color: #fff;
+.feature h3 {
+    color: #2E8B57;
 }
 
-footer {
-    background-color: #6B7280;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+.pricing {
+    padding: 2rem;
 }
 
 .services-table {
     width: 90%;
-    margin: 2rem auto;
+    margin: 1rem auto;
     border-collapse: collapse;
     background-color: #fff;
 }
@@ -112,13 +140,24 @@ footer {
 }
 
 .services-table th {
-    background-color: #6B7280;
+    background-color: #2E8B57;
     color: white;
+}
+
+footer {
+    background-color: #2E8B57;
+    color: white;
+    padding: 1rem;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     header {
         flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
     }
 
     nav ul {
